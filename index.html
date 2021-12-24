@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="pages/index.css">
+    
+</head>
+<body class="page">
+    <header class="header">
+        <h1 class="header__title">
+            ToDo List
+        </h1>
+    </header>
+    <main class="content">
+        <form class="todo" autocomplete="off">
+            <label>
+                <input class="todo__new" name="do" type="text" placeholder="new todo" />
+            </label>
+            <select class="todo__user" name="user">
+                <option disabled selected>select user</option>
+            </select>
+            <button type="submit" class="todo__add">Add Todo</button>
+        </form>
+        <ul class="todo__list">
+        </ul>
+    </main>
+    <footer class="footer">
+        <p class="footer__copyright">2021 &copy; Филиппов Евгений. В рамках обучения Case LAB</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

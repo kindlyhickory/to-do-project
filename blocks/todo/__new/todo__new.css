@@ -1,0 +1,12 @@
+.todo__new {
+    margin: 0 0 10px 0;
+    padding: 5px 0 5px 5px;
+    border: none;
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+}
+
+.todo__new:focus {
+    outline: 2px solid #000;
+  }

@@ -1,0 +1,15 @@
+.todo__item {
+    list-style: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 0;
+    margin-bottom: 20px;
+    max-width: 100%;
+    display: flex;
+    border-bottom: 1px solid rgba(255,255,255, .3);
+}
+
+.todo__item:last-of-type {
+    margin-bottom: 0;
+}

@@ -1,0 +1,20 @@
+.todo__invisible-checkbox {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.todo__invisible-checkbox + .todo__visible-checkbox{
+    transition: box-shadow .2s linear;
+}
+
+.todo__invisible-checkbox:checked + .todo__visible-checkbox{
+    background-image: url('../../../images/free-icon-checkmark-outline-54346.png');
+    background-size: cover;
+}
+
+.todo__invisible-checkbox:hover + .todo__visible-checkbox{
+    box-shadow: 0 0 5px #e9e4bc;
+}

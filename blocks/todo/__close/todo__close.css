@@ -1,0 +1,20 @@
+.todo__close {
+    min-width: 15px;
+    min-height: 15px;
+    margin: 0 0 0 auto;
+    background-position: center;
+    background-image: url("../../../images/close_button.svg");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    background-position: center;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    align-self: center;
+    transition: opacity .2s linear;
+}
+
+.todo__close:hover {
+    opacity: .4;
+}

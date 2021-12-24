@@ -1,0 +1,17 @@
+.todo__add {
+    margin: 0;
+    padding: 5px 0;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    transition: opacity .2s linear;
+}
+
+.todo__add:hover {
+    opacity: .4;
+}
