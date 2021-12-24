@@ -5,5 +5,5 @@
 Использовались технологии:  
 * HTML
 * CSS  
-* JavaScript
-
+* JavaScript  
+[Ссылка на github.Pages](https://kindlyhickory.github.io/to-do-project/)
